@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect fill="#2a1f1a" width="1920" height="1080"/>
+  <polygon fill="#3d2e24" points="0,1080 400,400 800,1080"/>
+  <polygon fill="#4a3828" points="600,1080 1000,300 1400,1080"/>
+  <polygon fill="#3d2e24" points="1200,1080 1600,350 1920,800 1920,1080"/>
+  <ellipse fill="#1a3040" cx="960" cy="850" rx="800" ry="120" opacity="0.5"/>
+  <text x="960" y="540" text-anchor="middle" fill="#fff" font-family="system-ui" font-size="48" opacity="0.3">Hero — Walensee</text>
+</svg>
