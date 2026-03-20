@@ -336,8 +336,16 @@
 
   .section-heading {
     text-align: center;
-    margin-block-end: var(--space-lg);
+    margin-block-end: var(--space-sm);
     color: var(--color-primary);
+  }
+
+  .section-intro {
+    text-align: center;
+    max-inline-size: 48rem;
+    margin-inline: auto;
+    margin-block-end: var(--space-lg);
+    color: var(--color-text-muted);
   }
 
   .card-grid {
