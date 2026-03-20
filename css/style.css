@@ -367,6 +367,33 @@
     }
   }
 
+  /* --- Carousel --- */
+  .carousel {
+    position: relative;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+  }
+
+  .carousel-slide {
+    position: absolute;
+    inset: 0;
+    inline-size: 100%;
+    block-size: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: carousel-fade 12s infinite;
+  }
+
+  .carousel-slide:nth-child(1) { animation-delay: 0s; }
+  .carousel-slide:nth-child(2) { animation-delay: 4s; }
+  .carousel-slide:nth-child(3) { animation-delay: 8s; }
+
+  @keyframes carousel-fade {
+    0%, 5% { opacity: 0; }
+    8%, 33% { opacity: 1; }
+    38%, 100% { opacity: 0; }
+  }
+
   .card-body {
     padding: var(--space-md);
   }
