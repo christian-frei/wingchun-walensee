@@ -155,6 +155,8 @@
 
   .site-logo {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
     gap: var(--space-sm);
     font-size: var(--text-lg);
