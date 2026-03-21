@@ -331,7 +331,7 @@
     position: sticky;
     inset-block-end: 0;
     z-index: 60;
-    text-align: center;
+    text-align: end;
     padding: var(--space-md);
   }
 
