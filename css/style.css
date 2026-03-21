@@ -164,8 +164,12 @@
   }
 
   .header-logo {
-    block-size: 3rem;
+    block-size: 2rem;
     inline-size: auto;
+
+    @media (min-width: 48rem) {
+      block-size: 2.5rem;
+    }
   }
 
   /* Hamburger toggle (CSS-only) */
