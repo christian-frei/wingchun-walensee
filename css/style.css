@@ -154,10 +154,18 @@
   }
 
   .site-logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
     font-size: var(--text-lg);
     font-weight: 700;
     color: var(--color-primary);
     letter-spacing: 0.02em;
+  }
+
+  .header-logo {
+    block-size: 3rem;
+    inline-size: auto;
   }
 
   /* Hamburger toggle (CSS-only) */
@@ -254,15 +262,6 @@
     justify-content: center;
     gap: var(--space-lg);
     flex-wrap: wrap;
-  }
-
-  .hero-logo {
-    max-block-size: 12rem;
-    inline-size: auto;
-
-    @media (min-width: 48rem) {
-      max-block-size: 16rem;
-    }
   }
 
   .hero-content h1 {
