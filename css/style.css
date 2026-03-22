@@ -695,6 +695,7 @@
   }
 
   .footer-content {
+    max-inline-size: none;
     display: flex;
     align-items: center;
     gap: var(--space-lg);
