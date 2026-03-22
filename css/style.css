@@ -268,20 +268,17 @@
     min-block-size: 80vh;
     display: grid;
     place-items: center;
-    justify-items: center;
     text-align: center;
     background: oklch(0.1 0 0);
     color: var(--color-white);
     padding: var(--space-lg);
-    gap: var(--space-md);
   }
 
   .hero-content {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: var(--space-lg);
-    flex-wrap: wrap;
+    gap: var(--space-md);
   }
 
   .hero-content h1 {
@@ -290,7 +287,17 @@
 
   .hero-subtitle {
     font-size: var(--text-lg);
-    opacity: 0.9;
+    font-style: italic;
+    opacity: 0.5;
+    max-inline-size: 40rem;
+  }
+
+  .hero-scroll-hint {
+    font-size: 1rem;
+    color: var(--color-white);
+    opacity: 0.4;
+    margin-block-start: var(--space-sm);
+    letter-spacing: 0.04em;
   }
 
   .btn {
