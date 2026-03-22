@@ -572,42 +572,21 @@
   .affiliate-card {
     border: 1px solid var(--color-border);
     border-radius: var(--border-radius);
-    overflow: hidden;
-    display: flex;
-    max-inline-size: 40rem;
-    margin-inline: auto;
-  }
-
-  .affiliate-image {
-    background: oklch(0.25 0 0);
-    display: grid;
-    place-items: center;
-    padding: var(--space-sm);
-    min-inline-size: 4rem;
-    flex-shrink: 0;
-  }
-
-  .affiliate-logo {
-    inline-size: 100%;
-    block-size: auto;
-    object-fit: contain;
-  }
-
-  .affiliate-info {
-    flex: 1;
     padding: var(--space-lg);
     display: flex;
     flex-direction: column;
     gap: var(--space-sm);
+    max-inline-size: 36rem;
+    margin-inline: auto;
   }
 
-  .affiliate-info h4 {
+  .affiliate-card h4 {
     font-size: var(--text-lg);
     font-weight: 700;
     color: var(--color-primary);
   }
 
-  .affiliate-info p {
+  .affiliate-card p {
     color: var(--color-text-muted);
   }
 
