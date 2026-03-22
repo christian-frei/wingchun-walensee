@@ -570,14 +570,14 @@
   }
 
   .affiliate-card {
-    border: 1px solid var(--color-border);
-    border-radius: var(--border-radius);
-    padding: var(--space-lg);
+    max-inline-size: 36rem;
+    margin-inline: auto;
+  }
+
+  .affiliate-card .card-body {
     display: flex;
     flex-direction: column;
     gap: var(--space-sm);
-    max-inline-size: 36rem;
-    margin-inline: auto;
   }
 
   .affiliate-card h4 {
