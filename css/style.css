@@ -147,6 +147,7 @@
   }
 
   .site-header .container {
+    max-inline-size: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
