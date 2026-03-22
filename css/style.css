@@ -577,6 +577,12 @@
     margin-inline: auto;
   }
 
+  .affiliate-logo {
+    block-size: 3rem;
+    inline-size: auto;
+    margin-block-end: var(--space-sm);
+  }
+
   .affiliate-card h4 {
     font-size: var(--text-lg);
     font-weight: 700;
