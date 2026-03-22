@@ -353,35 +353,34 @@
     padding: var(--space-md);
   }
 
-  /* --- About --- */
-  .about-grid {
+  /* --- What we teach --- */
+  .what-we-teach {
+    background: var(--color-bg);
+  }
+
+  .disciplines-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: var(--space-lg);
-    align-items: center;
 
     @media (min-width: 48rem) {
       grid-template-columns: 1fr 1fr;
     }
   }
 
-  .about-text h2 {
-    margin-block-end: var(--space-sm);
+  .discipline h3 {
+    font-size: var(--text-xl);
     color: var(--color-primary);
-  }
-
-  .about-text p {
     margin-block-end: var(--space-sm);
+  }
+
+  .discipline p {
     color: var(--color-text-muted);
+    margin-block-end: var(--space-sm);
   }
 
-  .about-image {
-    border-radius: var(--border-radius);
-    overflow: hidden;
-  }
-
-  /* --- Training Cards --- */
-  .training {
+  /* --- Our training --- */
+  .our-training {
     background: var(--color-surface);
   }
 
