@@ -579,11 +579,11 @@
   }
 
   .affiliate-image {
-    background: var(--color-primary);
+    background: oklch(0.25 0 0);
     display: grid;
     place-items: center;
     padding: var(--space-lg);
-    min-inline-size: 11rem;
+    min-inline-size: 16rem;
     flex-shrink: 0;
   }
 
