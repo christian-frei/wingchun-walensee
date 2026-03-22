@@ -317,14 +317,17 @@
               <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required autocomplete="name">
+                <span class="field-error">Bitte gib deinen Namen ein.</span>
               </div>
               <div class="form-group">
                 <label for="email">E-Mail</label>
                 <input type="email" id="email" name="email" required autocomplete="email">
+                <span class="field-error">Bitte gib eine gültige E-Mail-Adresse ein (z.B. name@beispiel.ch).</span>
               </div>
               <div class="form-group">
                 <label for="message">Nachricht</label>
                 <textarea id="message" name="message" required></textarea>
+                <span class="field-error">Bitte gib eine Nachricht ein.</span>
               </div>
               <button type="submit" class="btn btn-primary">Nachricht senden</button>
             </form>
