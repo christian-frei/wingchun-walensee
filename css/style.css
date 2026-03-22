@@ -698,13 +698,12 @@
     max-inline-size: none;
     display: flex;
     align-items: center;
-    gap: var(--space-lg);
+    justify-content: space-between;
   }
 
   .footer-nav {
     display: flex;
-    flex: 1;
-    justify-content: space-between;
+    gap: var(--space-md);
   }
 
   .footer-nav a {
