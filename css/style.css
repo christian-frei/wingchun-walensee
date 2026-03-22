@@ -582,9 +582,13 @@
     background: oklch(0.25 0 0);
     display: grid;
     place-items: center;
-    padding: var(--space-lg);
-    min-inline-size: 16rem;
+    padding: var(--space-sm);
+    min-inline-size: 4rem;
     flex-shrink: 0;
+  }
+
+  .affiliate-info {
+    flex: 1;
   }
 
   .affiliate-logo {
