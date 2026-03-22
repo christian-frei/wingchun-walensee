@@ -222,6 +222,8 @@
   .nav-list {
     display: flex;
     gap: var(--space-md);
+    justify-content: flex-end;
+    flex: 1;
   }
 
   .nav-list a {
