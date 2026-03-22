@@ -703,7 +703,8 @@
 
   .footer-nav {
     display: flex;
-    gap: var(--space-md);
+    flex-wrap: wrap;
+    gap: var(--space-sm) var(--space-md);
   }
 
   .footer-nav a {
