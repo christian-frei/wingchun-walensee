@@ -349,7 +349,7 @@
     position: sticky;
     inset-block-end: 0;
     z-index: 60;
-    text-align: end;
+    text-align: center;
     padding: var(--space-md);
   }
 
