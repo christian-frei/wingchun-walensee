@@ -486,6 +486,80 @@
     letter-spacing: 0.05em;
   }
 
+  /* --- About (Über uns) --- */
+  .about-block {
+    margin-block-end: var(--space-xl);
+
+    &:last-child {
+      margin-block-end: 0;
+    }
+  }
+
+  .about-block-heading {
+    font-size: var(--text-xl);
+    color: var(--color-primary);
+    text-align: center;
+    margin-block-end: var(--space-md);
+  }
+
+  .instructor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(12rem, 100%), 1fr));
+    gap: var(--space-md);
+    max-inline-size: 34rem;
+    margin-inline: auto;
+  }
+
+  .instructor-image {
+    aspect-ratio: 1;
+    overflow: hidden;
+    background: var(--color-surface);
+
+    img {
+      inline-size: 100%;
+      block-size: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .instructor-grid .card-body h4 {
+    font-size: var(--text-base);
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-block-end: var(--space-xs);
+  }
+
+  .affiliate-card {
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    padding: var(--space-lg);
+    max-inline-size: 40rem;
+    margin-inline: auto;
+  }
+
+  .affiliate-card h4 {
+    font-size: var(--text-lg);
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-block-end: var(--space-sm);
+  }
+
+  .affiliate-card p {
+    color: var(--color-text-muted);
+    margin-block-end: var(--space-sm);
+  }
+
+  .affiliate-link {
+    font-weight: 600;
+    color: var(--color-accent);
+    transition: color 0.2s ease;
+
+    &:hover,
+    &:focus-visible {
+      color: var(--color-primary);
+    }
+  }
+
   /* --- Contact / Location --- */
   .contact-grid {
     display: grid;
