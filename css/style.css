@@ -290,7 +290,8 @@
 
   .hero-subtitle {
     font-size: var(--text-lg);
-    opacity: 0.7;
+    font-style: italic;
+    opacity: 0.45;
     max-inline-size: 40rem;
     line-height: 1.8;
   }
