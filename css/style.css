@@ -358,26 +358,6 @@
     background: var(--color-bg);
   }
 
-  .disciplines-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--space-lg);
-
-    @media (min-width: 48rem) {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-
-  .discipline h3 {
-    font-size: var(--text-xl);
-    color: var(--color-primary);
-    margin-block-end: var(--space-sm);
-  }
-
-  .discipline p {
-    color: var(--color-text-muted);
-    margin-block-end: var(--space-sm);
-  }
 
   /* --- Our training --- */
   .our-training {
