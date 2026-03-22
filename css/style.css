@@ -587,10 +587,6 @@
     flex-shrink: 0;
   }
 
-  .affiliate-info {
-    flex: 1;
-  }
-
   .affiliate-logo {
     inline-size: 100%;
     block-size: auto;
@@ -598,6 +594,7 @@
   }
 
   .affiliate-info {
+    flex: 1;
     padding: var(--space-lg);
     display: flex;
     flex-direction: column;
