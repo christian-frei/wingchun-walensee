@@ -697,7 +697,8 @@
   .site-footer {
     background: var(--color-primary);
     color: var(--color-white);
-    padding-block: var(--space-lg);
+    padding-block-start: var(--space-lg);
+    padding-block-end: var(--space-sm);
   }
 
   .footer-content {
@@ -705,6 +706,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-block: var(--space-sm);
+    border-block-end: 1px solid oklch(1 0 0 / 0.15);
   }
 
   .footer-nav {
@@ -714,13 +717,23 @@
   }
 
   .footer-nav a {
+    font-weight: 500;
     font-size: var(--text-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     opacity: 0.8;
-    transition: opacity 0.2s ease;
+    transition: color 0.2s ease, opacity 0.2s ease;
 
-    &:hover {
+    &:hover,
+    &:focus-visible {
       opacity: 1;
+      color: var(--color-white);
     }
+  }
+
+  .footer-bottom {
+    max-inline-size: none;
+    padding-block-start: var(--space-sm);
   }
 
   .footer-copy {
