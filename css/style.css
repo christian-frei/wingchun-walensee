@@ -582,14 +582,15 @@
     background: var(--color-surface);
     display: grid;
     place-items: center;
-    padding: var(--space-lg);
-    min-inline-size: 10rem;
+    padding: var(--space-md);
+    min-inline-size: 12rem;
     flex-shrink: 0;
   }
 
   .affiliate-logo {
-    block-size: 4rem;
-    inline-size: auto;
+    inline-size: 100%;
+    block-size: auto;
+    object-fit: contain;
   }
 
   .affiliate-info {
