@@ -627,6 +627,28 @@
     resize: vertical;
   }
 
+  .form-group input:user-invalid,
+  .form-group textarea:user-invalid {
+    border-color: oklch(0.55 0.2 25);
+    box-shadow: 0 0 0 3px oklch(0.55 0.2 25 / 0.15);
+  }
+
+  .form-group input:user-valid,
+  .form-group textarea:user-valid {
+    border-color: oklch(0.55 0.15 145);
+  }
+
+  .field-error {
+    display: none;
+    font-size: var(--text-sm);
+    color: oklch(0.5 0.2 25);
+  }
+
+  .form-group input:user-invalid + .field-error,
+  .form-group textarea:user-invalid + .field-error {
+    display: block;
+  }
+
   /* --- Footer --- */
   .site-footer {
     background: var(--color-primary);
