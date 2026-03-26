@@ -360,8 +360,11 @@
 
   /* --- CTA Banner --- */
   .cta-banner {
+    position: sticky;
+    inset-block-end: 0;
+    z-index: 60;
     text-align: center;
-    padding-block-start: var(--space-lg);
+    padding: var(--space-md);
   }
 
   /* --- What we teach --- */
