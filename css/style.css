@@ -268,7 +268,7 @@
   /* --- Hero --- */
   .hero {
     position: relative;
-    min-block-size: 80vh;
+    min-block-size: 60vh;
     display: grid;
     place-items: center;
     text-align: center;
