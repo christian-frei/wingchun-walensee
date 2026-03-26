@@ -272,7 +272,7 @@
     display: grid;
     place-items: center;
     text-align: center;
-    background: oklch(0.1 0 0);
+    background: linear-gradient(160deg, oklch(0.22 0.14 20), oklch(0.16 0.06 45));
     color: var(--color-white);
     padding: var(--space-lg);
   }
