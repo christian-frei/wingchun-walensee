@@ -1,1 +1,1 @@
-claude --resume "wingchunwalensee"
+claude --resume "christian-wingchun-walensee"
