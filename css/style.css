@@ -401,6 +401,19 @@
     }
   }
 
+  /* --- Card Media --- */
+  .card-media {
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+
+    img,
+    video {
+      inline-size: 100%;
+      block-size: 100%;
+      object-fit: cover;
+    }
+  }
+
   /* --- Carousel --- */
   .carousel {
     position: relative;
