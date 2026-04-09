@@ -521,20 +521,6 @@
     }
   }
 
-  /* --- Training media placeholder --- */
-  .training-media {
-    aspect-ratio: 16 / 9;
-    background: var(--color-bg);
-    border: 2px dashed var(--color-border);
-    border-radius: var(--border-radius);
-    display: grid;
-    place-items: center;
-    margin-block-end: var(--space-lg);
-    color: var(--color-text-muted);
-    font-style: italic;
-    font-size: var(--text-sm);
-  }
-
   /* --- Training topics grid --- */
   .training-topics {
     display: grid;
