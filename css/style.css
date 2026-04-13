@@ -797,17 +797,60 @@
   }
 
   /* --- Legal Pages --- */
-  .legal-content {
-    max-inline-size: 48rem;
+  .legal-page {
+    min-block-size: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 
-    h1 {
+  .legal-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-sm) var(--space-md);
+    border-block-end: 1px solid var(--color-border);
+  }
+
+  .legal-nav-logo img {
+    block-size: 2.25rem;
+    inline-size: auto;
+  }
+
+  .legal-back {
+    font-size: var(--text-sm);
+    font-weight: 500;
+    color: var(--color-accent);
+    transition: color 0.2s ease;
+
+    &:hover,
+    &:focus-visible {
       color: var(--color-primary);
-      margin-block-end: var(--space-lg);
     }
+  }
+
+  .legal-content {
+    flex: 1;
+    max-inline-size: 48rem;
+    margin-inline: auto;
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  .legal-title {
+    color: var(--color-primary);
+    margin-block-end: var(--space-sm);
+  }
+
+  .legal-intro {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    margin-block-end: var(--space-lg);
+  }
+
+  .legal-section {
+    margin-block-end: var(--space-lg);
 
     h2 {
       color: var(--color-primary);
-      margin-block-start: var(--space-lg);
       margin-block-end: var(--space-sm);
     }
 
@@ -816,7 +859,7 @@
       margin-block-end: var(--space-xs);
     }
 
-    p, ul, address {
+    p, address {
       margin-block-end: var(--space-sm);
       color: var(--color-text-muted);
     }
@@ -828,6 +871,8 @@
     ul {
       padding-inline-start: var(--space-md);
       list-style: disc;
+      margin-block-end: var(--space-sm);
+      color: var(--color-text-muted);
     }
 
     a {
@@ -837,6 +882,24 @@
       &:hover,
       &:focus-visible {
         color: var(--color-primary);
+      }
+    }
+  }
+
+  .legal-footer {
+    text-align: center;
+    padding: var(--space-md);
+    border-block-start: 1px solid var(--color-border);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+
+    a {
+      color: var(--color-text-muted);
+      transition: color 0.2s ease;
+
+      &:hover,
+      &:focus-visible {
+        color: var(--color-accent);
       }
     }
   }
